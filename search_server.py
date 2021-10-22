@@ -258,7 +258,7 @@ class BingSearchRequestHandler(SearchABCRequestHandler):
 
     def search(self, 
             q: str, n: int, 
-            subscription_key: str = 93099686623f4b7aa2fb4a8f693c541f, 
+            subscription_key: str = "93099686623f4b7aa2fb4a8f693c541f", 
             use_description_only: bool = True
         ) -> Generator[str, None, None]:
 
